@@ -17,6 +17,17 @@
     "copyfiles": "0.0.1"
   },
   "main": "dist/leaflet-src.js",
+  "spm": {
+    "main": "leaflet.js",
+    "output": [
+      "leaflet.css",
+      "images/layers-2x.png",
+      "images/layers.png",
+      "images/marker-icon-2x.png",
+      "images/marker-icon.png",
+      "images/marker-shadow.png"
+    ]
+  },
   "scripts": {
     "test": "jake test",
     "prepublish": "jake build",
